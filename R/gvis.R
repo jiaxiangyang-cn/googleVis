@@ -218,7 +218,7 @@ var options = {};
   
   jsChart <- '
 <!-- jsChart -->  
-<script type="text/javascript\" src="/hedgehog/js/jsapi.js"></script>
+<script type="text/javascript\" src="/hedgehog/cgi/jsapi.cig?callback=displayChart%s"></script>
 '
   jsChart  <- sprintf(jsChart, chartid)
   
